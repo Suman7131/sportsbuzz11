@@ -15,7 +15,6 @@ const routes: Routes = [
                           {path : 'faq', component: FaqComponent},
                           {path : 'termsandcondition', component: TermsandconditionComponent}
                        ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
