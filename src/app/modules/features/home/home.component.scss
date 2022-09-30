@@ -16,6 +16,10 @@
     color: #FF3333;
 }
 
+.homepage-icon{
+    margin-left: 54px;
+}
+
 .home-page-content {
 
     width: 350px;
@@ -43,7 +47,6 @@
   
     width: 169px;
     height: 25px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -52,6 +55,7 @@
     display: flex;
     align-items: center;
     color: #242424;
+    margin-top:10px;
 }
 
 .scanner-icon {
@@ -85,7 +89,7 @@
 
 .tested100k-icon {
     
-    width: 212px;
+    width: 200px;
     height: 88px;
     background: #FFFFFF;
     box-shadow: 0px 0px 74px -25px rgba(0, 0, 0, 0.25);
@@ -94,21 +98,24 @@
 
 .tested50k_icon {
    
-    width: 212px;
+    width: 200px;
     height: 88px;
     background: #FFFFFF;
     box-shadow: 0px 0px 74px -25px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
+    margin-top:20px;
 }
 
 .android-icon {
-    width: 144px;
+    width: 140px;
     height: 42px;
+    border-radius: 5px;
 }
 
 .apple-icon {
     width: 156.82px;
     height: 72px;
+    margin-top: -14px
 }
 
 .under_line {
@@ -159,7 +166,7 @@
     height: 251px;
     left: 304px;
     top: 2083px;
-    background: #FFFFFF;
+    
     // box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.11);
 }
 
@@ -168,7 +175,7 @@
     height: 251px;
     left: 550px;
     top: 2124px;
-    background: #FFFFFF;
+    margin-top:37px;
     // box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.11);
 }
 
@@ -177,7 +184,6 @@
     height: 251px;
     left: 796px;
     top: 2083px;
-    background: #FFFFFF;
     // box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.11);
 }
 
@@ -186,7 +192,7 @@
     height: 251px;
     left: 1042px;
     top: 2124px;
-    background: #FFFFFF;
+    margin-top:37px;
     // box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.11);
 }
 
@@ -246,6 +252,59 @@
 
 .happy_label {
     color:#FF0000;
+}
+
+.download-btn{
+    height: 40px;
+    background: radial-gradient(211.33% 211.33% at -24.67% 94.74%, #1ABD00 0%, #71B280 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 12px;
+    width: 25% !important;
+    margin-left: 10px !important;
+    font-size: 18px !important;
+    color: #fff;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-radius: 5px;
+}
+
+.input-group::before {
+    content: "";
+    position: absolute;
+    left: 45px;
+    top: 4px;
+    z-index: 20;
+    height: 25px;
+    width: 2px;
+    background-color: #e5e5e5;
+}
+
+.row-space {
+    margin-bottom: 25px;
+}
+
+.group-image601{
+    width:400px;
+    height:180px;
+}
+
+.mobileicon {
+    margin-top: -283px;
+    margin-left: 600px;
+}
+
+.w-55 {
+   width: 55% !important;
+   border-top-right-radius: 5px !important;
+   border-bottom-right-radius: 5px !important;
+   height: 40px;
+}
+
+.bkImg {
+    background: linear-gradient(to left, #e2ebff -113%, #fff 100%);
+}
+
+.bacgrongImg-ouruser {
+    background: linear-gradient(to right, #FCDDE2 -303%, #fff 63%);
 }
 
 
