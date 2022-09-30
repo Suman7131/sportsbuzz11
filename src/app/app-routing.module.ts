@@ -5,6 +5,7 @@ import { AboutusComponent } from './modules/features/aboutus/aboutus.component';
 import { ContactusComponent } from './modules/features/contactus/contactus.component';
 import { FaqComponent } from './modules/features/faq/faq.component';
 import { TermsandconditionComponent } from './modules/features/termsandcondition/termsandcondition.component';
+import { PrivacypolicyComponent } from './modules/features/privacypolicy/privacypolicy.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,9 @@ const routes: Routes = [
                           {path : 'aboutus', component: AboutusComponent},
                           {path : 'contactus', component: ContactusComponent},
                           {path : 'faq', component: FaqComponent},
-                          {path : 'termsandcondition', component: TermsandconditionComponent}
+                          {path : 'termsandcondition', component: TermsandconditionComponent},
+                          {path : 'privacypolicy', component: PrivacypolicyComponent}
+
                        ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
