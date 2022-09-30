@@ -9,6 +9,8 @@ import { ContactusComponent } from './modules/features/contactus/contactus.compo
 import { FaqComponent } from './modules/features/faq/faq.component';
 import { HeaderComponent } from './modules/features/header/header.component';
 import { FooterComponent } from './modules/features/footer/footer.component';
+import { TermsandconditionComponent } from './modules/features/termsandcondition/termsandcondition.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { FooterComponent } from './modules/features/footer/footer.component';
     ContactusComponent,
     FaqComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TermsandconditionComponent
   ],
   imports: [
     BrowserModule,

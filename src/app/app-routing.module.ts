@@ -4,6 +4,7 @@ import { HomeComponent } from './modules/features/home/home.component';
 import { AboutusComponent } from './modules/features/aboutus/aboutus.component';
 import { ContactusComponent } from './modules/features/contactus/contactus.component';
 import { FaqComponent } from './modules/features/faq/faq.component';
+import { TermsandconditionComponent } from './modules/features/termsandcondition/termsandcondition.component';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
                           { path : 'home', component: HomeComponent},
                           {path : 'aboutus', component: AboutusComponent},
                           {path : 'contactus', component: ContactusComponent},
-                          {path : 'faq', component: FaqComponent}
+                          {path : 'faq', component: FaqComponent},
+                          {path : 'termsandcondition', component: TermsandconditionComponent}
                        ];
 
 @NgModule({

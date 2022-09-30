@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+input.w-10 {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    background-color: #fff !important;
+    height: 40px;
+}
+
+.input-group::before {
+    content: "";
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    z-index: 20;
+    height: 25px;
+    width: 2px;
+    background-color: #e5e5e5;
+}
+
+.input-group::before {
+    content: "";
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    z-index: 20;
+    height: 25px;
+    width: 2px;
+    background-color: #e5e5e5;
+}
+
+.navbar-toggler-icon {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+    width: 1.5em;
+}
+
+.terms_condition_label {
+    width: 794px;
+    height: 70px;
+    left: 312px;
+    top: 193px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    
+    color: #000000;
+}
+
