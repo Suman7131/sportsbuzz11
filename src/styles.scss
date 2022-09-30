@@ -6,27 +6,16 @@ input.w-10 {
     height: 40px;
 }
 
-.input-group::before {
-    content: "";
-    position: absolute;
-    left: 45px;
-    top: 10px;
-    z-index: 20;
-    height: 25px;
-    width: 2px;
-    background-color: #e5e5e5;
-}
-
-.input-group::before {
-    content: "";
-    position: absolute;
-    left: 45px;
-    top: 10px;
-    z-index: 20;
-    height: 25px;
-    width: 2px;
-    background-color: #e5e5e5;
-}
+// .input-group::before {
+//     content: "";
+//     position: absolute;
+//     left: 45px;
+//     top: 10px;
+//     z-index: 20;
+//     height: 25px;
+//     width: 2px;
+//     background-color: #e5e5e5;
+// }
 
 .navbar-toggler-icon {
     background-position: 50%;

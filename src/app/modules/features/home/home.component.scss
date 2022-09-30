@@ -267,17 +267,6 @@
     border-radius: 5px;
 }
 
-.input-group::before {
-    content: "";
-    position: absolute;
-    left: 45px;
-    top: 4px;
-    z-index: 20;
-    height: 25px;
-    width: 2px;
-    background-color: #e5e5e5;
-}
-
 .row-space {
     margin-bottom: 25px;
 }
