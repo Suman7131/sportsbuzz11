@@ -5,8 +5,28 @@
 
   }
 
+  .collapsible-link{line-height: 34px;
+    font-size: 17px;}
+
+  // *{line-height: 34px;
+  //   font-size: 17px;}
+
 .abo_head {
     padding: 20px;
+}
+
+.contact_title {
+  font-size: 30px;
+  text-align: center;
+  padding: 25px;
+  font-weight: 700;
+}
+
+
+.accou_p p {
+  font-weight: 400 !important;
+  font-size: 17px;
+  
 }
 .collapsible-link {
     width: 100%;
@@ -29,3 +49,17 @@
   .collapsible-link[aria-expanded="true"]::before {
     content: "\f106";
   }
+
+  @media only screen and (max-width: 768px) {
+    .collapsible-link{
+      line-height: 20px;
+      font-size: 9px;
+      white-space: pre-wrap;
+    }
+
+    .accou_p p {
+      
+      font-size: 9px;
+      
+    }
+}

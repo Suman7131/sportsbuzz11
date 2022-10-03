@@ -1,35 +1,190 @@
-<section class="section-footer desktop-visible">
+
+
+<section class="contact_foot">
     <div class="container text-left">
         <div class="row">
 
-            <div class="about-section">
-                <h2>About Us</h2>
-
-
-                <p>This Terms of Use govern your use of the website, Materials, Your Content and the services offered through <a data-fr-linked="true" href="//www.cricbuzz.com">www.cricbuzz.com</a> (&quot;Site&quot;). For the purpose of these Terms of Use, wherever the context so require &quot;you&quot; or &quot;your&quot; or &quot;user&quot; shall mean any natural or legal person who has agreed to become a member of the Site by registering on the Site as registered user or browses the Site. Your access or use of the Site is subject to the terms and conditions of use as set out here (Terms of Use) and the Privacy Policy made available at <a data-fr-linked="true" href="//www.cricbuzz.com/info/privacy">www.cricbuzz.com/info/privacy</a></p>
-               
-                <p>Please note that by accessing or using the Site you agree to be bound by the Terms of Use and the Terms of Use is a legally binding agreement between you and us TIMES INTERNET LTD, the owner of the Site (&quot;Company&quot;).</p>
-                <p>USER REGISTRATION</p>
-                
-                <p>You may use the Site without registration however, to participate in certain activities of the Site you may be required to create an account or you can login through your Facebook account or any other third party service account permitted by the Site. In the event you wish to create an account with us you may do so by completing the registration process. You agree to a) provide true, accurate, correct and complete information as prompted by the applicable registration form b) maintain and update true, accurate, correct and complete information provided by you during the registration process. You may be required to choose a password and user name. You are solely responsible for maintaining the confidentiality of your password and account.</p>
-                
-                <p>If at any time Company believes that your account and password is being misused in any manner, or that the information provided by you during the registration process is not true, inaccurate or incomplete the Company reserves the right to cancel your account and block your access to Site.</p>
-                
-                <p>You are entirely responsible for any and all activities that occur under your account. You agree to notify the Company of any unauthorised use of your account or any breach of security. Company will not be liable for any loss that you may incur as a result of someone else using your password or account or your failure to comply with this section.</p>
-                
-                <p>By registering for an account with us you give us permission to send you mailers on different promotions, deals or offers running on the platform and content published or upcoming including but not limited to articles and videos. From the said mailers you can at any time unsubscribe and opt out of receiving such mails after which you will not be sent such mailers.</p>
-                
-                <h3>USE OF THE SITE</h3>
-                
-                <p>All materials provided on this site, including but not limited to all information, materials, functions text, logos, designs, graphics, images, sounds, software, documents, products and services (collectively, the &quot;Materials&quot;), and the selection, arrangement and display thereof, are the copyrighted works of the Company/or its vendors or suppliers. All Materials herein and all Company software are proprietary to Company and protected by worldwide copyright and other intellectual property laws. Except as stated herein, none of the Materials may be modified, copied, reproduced, distributed, republished, downloaded, displayed, sold, compiled, posted or transmitted in any form or by any means, including but not limited to, electronic, mechanical, photocopying, recording or other means, without the prior express written permission of the Company.</p>
-                
-                <p>Company hereby grants you the right to access and use the Site only for your personal and non-commercial use. You may not use the Site for commercial purposes or in any way that is unlawful, or harms us or any other person or entity, as determined in our sole discretion.</p>
-                
-                <p>You may post/share links/images/text content on the site on social platforms like Facebook, Twitter, Google+, Pinterest, with appropriate link-back to the original source.</p>
-
-
-              </div>
+            <div class="row gx-5 contact_data">
+                <div class="col-md-6 conta_us">
+                    <h3 class="title contact_title">Contact Us</h3>
+                    <div class="widget">
+  
+                      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                          <!-- <label class="contact_form">Name</label> -->
+                          <div class="form-group">
+                             
+                              <input type="text" formControlName="name" class="form-control contact_form_input" placeholder="Name" />
+                              <!-- <div *ngIf="submitted && contactForm.name.errors" class="invalid-feedback">
+                                  <div *ngIf="contactForm.name.errors.required">Name is required</div>
+                              </div> -->
+                          </div>
+                          <!-- <div class="form-group">
+                              <label class="contact_form">Mobile No</label>
+                              <input type="text" formControlName="mobile_num" class="form-control contact_form_input" placeholder="Mobile No" />
+                              <div *ngIf="submitted && contactForm.mobile_num.errors" class="invalid-feedback">
+                                  <div *ngIf="contactForm.mobile_num.errors.required">Mobile Number is required</div>
+                              </div>
+                          </div> -->
+                          <div class="form-group">
+                              <!-- <label class="contact_form">Email</label> -->
+                              <input type="text" formControlName="email" class="form-control contact_form_input" placeholder="Email" />
+                              <!-- <div *ngIf="submitted && contactForm.email.errors" class="invalid-feedback">
+                                  <div *ngIf="contactForm.email.errors.required">Email is required</div>
+                                  <div *ngIf="contactForm.email.errors.email">Email must be a valid email address</div>
+                              </div> -->
+                          </div>
+                          <div class="form-group">
+                              <!-- <label class="contact_form">Message</label> -->
+                              <textarea  formControlName="message" class="form-control contact_form_input" placeholder="Your Message"></textarea>
+                              <!-- <div *ngIf="submitted && contactForm.message.errors" class="invalid-feedback">
+                                  <div *ngIf="contactForm.message.errors.required">Message is required</div>
+                              </div> -->
+                          </div>
+                          <div class="form-group">
+                              <button class="btn btn-primary btn-submit bt_submit">Send Message</button>
+                          </div>
+                      </form>
+  
+  
+                    
+  
+                    </div>
+                </div>
+                <!-- <div class="col-md-6">
+                    <h3 class="title">Location</h3>
+                    <div class="widget">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.868027887087!2d77.35105671561456!3d28.60373568242931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce56ee86aad75%3A0x42603a8a216dac6e!2sHello%20Verify%20India%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1641381427790!5m2!1sen!2sin"
+                            width="100%" height="457" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div> -->
+            </div>
 
         </div>
     </div>
 </section>
+
+
+<section class="foote_cont">
+    <div class="container text-left">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-12 col-sm-4">
+                         <img src="/assets/images/footer_label.png" class="group629"  alt="SportsBuzz11">
+                        <p class="footer-conetnt">
+                            A globally recognized sports content platform covering the world's biggest sports and esports subjects for die-hard sports enthusiasts.
+                        </p>
+                        <div class="row">
+                            <div class="col-12 col-sm-4">
+                                <p class="footer-conetnt">Cricket</p>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <p class="footer-conetnt">Football</p>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <p class="footer-conetnt">basketBall</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-1">
+                        <section class="section-more-mobile">
+                            <p class="footer-conetnt"><a class="hyperlink" routerLink="/aboutus">About us</a></p>
+                         </section>
+                         <section class="section-more-mobile">
+                            <p class="footer-conetnt"><a class="hyperlink" routerLink="/contactus">Contact Us</a></p>
+                         </section>
+                         <section class="section-more-mobile">
+                            <p class="footer-conetnt"><a  class="hyperlink" routerLink="/faq">FAQ</a></p>
+                         </section>
+                         <section class="section-more-mobile">
+                            <p class="footer-conetnt">Blog</p>
+                         </section>
+                    </div>
+                    
+                    <div class="col-12 col-sm-2">
+                        <section class="section-more-mobile">
+                            <p class="footer-conetnt"><a class="hyperlink" routerLink="/privacypolicy">Privacy Policy</a></p>
+                         </section>
+                         <section class="section-more-mobile">
+                            <p class="footer-conetnt"><a class="hyperlink" routerLink="/termsandcondition">Terms & Conditions</a></p>
+                         </section>
+                         <section class="section-more-mobile">
+                            <p class="footer-conetnt">Refund Policy</p>
+                         </section>
+                         <section class="section-more-mobile">
+                            <p class="footer-conetnt">Legality</p>
+                         </section>
+                    </div>
+                    <div class="col-12 col-sm-2">
+                        <section class="section-more-mobile">
+                            <p class="footer-conetnt">Download the app</p>
+                         </section>
+                         <!-- <section class="section-more-mobile">
+                            <img src="/assets/images/image3.png" class="group629"  alt="SportsBuzz11">
+                         </section>
+                         <section class="section-more-mobile">
+                            <img src="/assets/images/image2.png" class="image2"  alt="SportsBuzz11">
+                         </section> -->
+                    </div>
+                    <div class="col-12 col-sm-2">
+                        <section class="section-more-mobile">
+                            <p class="footer-conetnt">Contact With us</p>
+                        </section>
+
+                       <div class="row">
+                            <div class="col-12 col-sm-2">
+                                <img src="/assets/images/facebook.png" class="group629"  alt="SportsBuzz11">
+                            </div>
+                            <div class="col-12 col-sm-3">
+                                <img src="/assets/images/twitter.png" class="group629"  alt="SportsBuzz11">
+                            </div>
+                            <div class="col-12 col-sm-3">
+                                <img src="/assets/images/instagram.png" class="group629"  alt="SportsBuzz11">
+                            </div>
+                            <div class="col-12 col-sm-1">
+                                <img src="/assets/images/youtube.png" class="group629"  alt="SportsBuzz11">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <section class="section-footer desktop-visible">
+    <div class="container text-left">
+        <div class="row">
+
+
+            <form class="contact" [formGroup]="form" method="post" (ngSubmit)="onSubmit()">
+                <mat-form-field>
+                    <mat-label>Name</mat-label>
+                    <input matInput [formControl]="name" required>
+                    <mat-error *ngIf="name.invalid">Please enter your name</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input matInput [formControl]="email" placeholder="email@example.com" required>
+                    <mat-error *ngIf="email.invalid">Please enter a valid email</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Message</mat-label>
+                    <textarea matInput [formControl]="message" maxlength="256" placeholder="I'm interested in..." required></textarea>
+                    <mat-hint align="end"> {{message.value?.length || 0}}/256</mat-hint>
+                    <mat-error *ngIf="message.invalid">Please enter a message</mat-error>
+                </mat-form-field>
+                <button [disabled]="isLoading" class="submit" type="submit">Submit</button>
+                <input [formControl]="honeypot" class="hidden" type="text" />
+                <div [ngClass]="!submitted? 'hidden' : 'visible'" class="center-text">
+                    <span>{{responseMessage}}</span>
+                </div>
+            </form>
+          
+        </div>
+    </div>
+</section> -->
+

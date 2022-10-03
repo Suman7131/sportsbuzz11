@@ -11,6 +11,11 @@ import { HeaderComponent } from './modules/features/header/header.component';
 import { FooterComponent } from './modules/features/footer/footer.component';
 import { TermsandconditionComponent } from './modules/features/termsandcondition/termsandcondition.component';
 import { PrivacypolicyComponent } from './modules/features/privacypolicy/privacypolicy.component';
+import { MatInputModule } from "@angular/material/input";
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -27,7 +32,15 @@ import { PrivacypolicyComponent } from './modules/features/privacypolicy/privacy
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatInputModule,
+
+    
+		ReactiveFormsModule,
+		HttpClientModule,
+		NoopAnimationsModule,
+		MatInputModule,
+		BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
