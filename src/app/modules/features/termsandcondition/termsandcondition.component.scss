@@ -5,12 +5,17 @@
 
 //   }
 
-  .space-rows {
+  .headingspace-rows {
     margin-top: 25px;
   }
 
   .termsandCondition-section {
     margin-top: 100px;
+  }
+
+  .headline-height {
+    margin-top: 10px;
+    font-size: 20px !important;
   }
 
 
@@ -22,4 +27,10 @@
 
   *{line-height: 34px;
     font-size: 17px;}
+
+.row-space  .fontsize {
+    position:relative;
+    top:-6px !important;
+
+  }  
     
