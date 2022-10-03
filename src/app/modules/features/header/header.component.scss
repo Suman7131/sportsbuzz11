@@ -1,7 +1,13 @@
-.background-header {
-    --bs-bg-opacity: 1;
-    background-color: #fff !important; 
+.navbar-nav {
+    margin: 0px;
 }
+
+.container-fluid:before,
+.navbar-light:after,
+.container-fluid:after,
+.navbar-light:before {
+    content: none;
+ }
 
 .nav_links {
     color: #000000 !important;
@@ -26,3 +32,29 @@
     top: 0px;
     border-radius: 0px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .navbar-light {
+    padding: 18px !important;
+  }
+}
+
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header {  
+background-color: orange;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 30px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
