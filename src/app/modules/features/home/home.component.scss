@@ -130,7 +130,7 @@
 .amazing-sports-label {
     margin: 0 auto;
     text-align: center;
-    width: 332px;
+    width: 100%;
     height: 24px;
 
     font-weight: 500;
@@ -143,7 +143,7 @@
 .sb11-sports-label {
     margin: 0 auto;
     text-align: center;
-    width: 560px;
+    width: 100%;
     height: 44px;
     font-family: 'Poppins';
     font-style: normal;
@@ -162,7 +162,7 @@
 }
 
 .group629{
-    width: 222px;
+    width: 100%;
     height: 251px;
     left: 304px;
     top: 2083px;
@@ -171,7 +171,7 @@
 }
 
 .group630{
-    width: 222px;
+    width: 100%;
     height: 251px;
     left: 550px;
     top: 2124px;
@@ -180,7 +180,7 @@
 }
 
 .group631{
-    width: 222px;
+    width: 100%;
     height: 251px;
     left: 796px;
     top: 2083px;
@@ -188,7 +188,7 @@
 }
 
 .group632{
-    width: 222px;
+    width: 100%;
     height: 251px;
     left: 1042px;
     top: 2124px;
@@ -197,7 +197,7 @@
 }
 
 .groupappicons{
-    width: 957px;
+    width: 100%;
     height: 268px;
     left: 307px;
     top: 2468px;
@@ -208,7 +208,7 @@
 #group65icon {
     margin: 0 auto;
     text-align: center;
-    width: 676px;
+    width: 100%;
     height: 283.08px;
     left: 448px;
     top: 2980px;
@@ -217,7 +217,7 @@
 #group67icon {
     margin: 0 auto;
     text-align: center;
-    width: 676px;
+    width: 100%;
     height: 283.08px;
     left: 448px;
     top: 2980px;
@@ -226,7 +226,7 @@
 .sb11-testimonials-label{
     margin: 0 auto;
     text-align: center;
-    width: 332px;
+    width: 100%;
     height: 24px;
 
     top: 1959px;
@@ -239,7 +239,7 @@
 .our-userstory-label{
     margin: 0 auto;
     text-align: center;
-    width: 560px;
+    width: 100%;
     height: 44px;
     top: 2878px;
     font-weight: 500;
@@ -272,7 +272,7 @@
 }
 
 .group-image601 {
-    width:400px;
+    width:100%;
     height:180px;
 }
 
@@ -294,6 +294,60 @@
 
 .bacgrongImg-ouruser {
     background: linear-gradient(to right, #FCDDE2 -303%, #fff 63%);
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .sb11-sports-label {
+        font-size: 26px !important;
+    }
+
+    .our-userstory-label {
+        font-size: 23px !important; 
+    }
+
+    .group67icons,
+    .group65icons {
+        width:100% !important;
+    }
+
+    .mobileicon {
+        margin-top: -49% !important;
+        margin-left: 45% !important;
+        width: 57% !important;
+    }
+
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .homepage-icon {
+        margin-left: 5%;
+    }
+
+    .tested50k_icon,
+    .tested100k-icon {
+        width: 100% !important;
+        height: 150px !important;
+    }
+
+    .tested60k-icon {
+        width: 100% !important;
+        height: 93% !important;
+    }
+
+    .apple-icon{
+        width: 100% !important;
+        height: 130px !important;
+        margin-top: 0px;
+    }
+    .android-icon {
+        width: 82% !important;
+        height: 80px !important;
+        margin-top: 0px;
+    }
+
+    
 }
 
 

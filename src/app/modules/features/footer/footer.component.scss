@@ -41,3 +41,31 @@
     width: 17% !important;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .footer-firstrow .first-col .group629 {
+      width: 100% !important;
+    }
+
+    .footer-firstrow .second-col {
+        width: 27% !important;
+      }
+
+      .footer-firstrow .third-col {
+        width: 32% !important;
+      } 
+
+      .four-col,
+    .five-col {
+        
+            flex: 0 0 auto;
+            width: 50% !important;
+      
+    }
+
+    .five-col .col-12 {
+        flex: 0 0 auto;
+        width: 25% !important;
+    }
+    
+  }
+
