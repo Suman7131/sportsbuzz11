@@ -2,6 +2,11 @@
     margin: 0px;
 }
 
+.bg-light {
+    --bs-bg-opacity: 0 !important; 
+    background-color: #fff !important;
+}
+
 .container-fluid:before,
 .navbar-light:after,
 .container-fluid:after,
