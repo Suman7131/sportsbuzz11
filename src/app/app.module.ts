@@ -16,6 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { KabaddiComponent } from './modules/features/kabaddi/kabaddi.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     HeaderComponent,
     FooterComponent,
     TermsandconditionComponent,
-    PrivacypolicyComponent
+    PrivacypolicyComponent,
+    KabaddiComponent
   ],
   imports: [
     BrowserModule,
