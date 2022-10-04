@@ -6,6 +6,7 @@ import { ContactusComponent } from './modules/features/contactus/contactus.compo
 import { FaqComponent } from './modules/features/faq/faq.component';
 import { TermsandconditionComponent } from './modules/features/termsandcondition/termsandcondition.component';
 import { PrivacypolicyComponent } from './modules/features/privacypolicy/privacypolicy.component';
+import { KabaddiComponent } from './modules/features/kabaddi/kabaddi.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
                           {path : 'contactus', component: ContactusComponent},
                           {path : 'faq', component: FaqComponent},
                           {path : 'termsandcondition', component: TermsandconditionComponent},
-                          {path : 'privacypolicy', component: PrivacypolicyComponent}
+                          {path : 'privacypolicy', component: PrivacypolicyComponent},
+                          {path: 'kabaddi', component:KabaddiComponent},
 
                        ];
 @NgModule({
