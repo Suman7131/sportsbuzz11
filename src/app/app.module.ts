@@ -18,6 +18,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { KabaddiComponent } from './modules/features/kabaddi/kabaddi.component';
 import { CricketComponent } from './modules/features/cricket/cricket.component';
+import { FootballComponent } from './modules/features/football/football.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { CricketComponent } from './modules/features/cricket/cricket.component';
     TermsandconditionComponent,
     PrivacypolicyComponent,
     KabaddiComponent,
-    CricketComponent
+    CricketComponent,
+    FootballComponent
   ],
   imports: [
     BrowserModule,

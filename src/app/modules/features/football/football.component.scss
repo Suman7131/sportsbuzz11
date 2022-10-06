@@ -24,44 +24,53 @@
   }
 
 
-  .kabaddi_main {
+
+  .cricket_main{
+    background-color: #fff;
+    text-align: center;
+    /* margin: 1em 0em; */
+}
+
+
+.kabaddi_main {
     font-weight: 800;
     background-color: #f4f4f4;
     padding: 10px;
-    font-size: 20px;
+  
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    font-size: 20px;
+
     padding: 25px;
   
   }
   
-  /* .kabaddi_play .para {
-    width: 80%;
+  .kabaddi_play .para {
+    width: 95%;
     text-align: left;
     margin: 0 auto;
-    font-size: 20px;
-  } */
-  /* .kabaddi_play ul {
-    width: 80%;
+    /* font-size: 20px; */
+  }
+  .kabaddi_play ul {
+    width: 95%;
     text-align: center;
     margin: 20px auto;
-    font-size: 20px;
+    /* font-size: 20px; */
   }
   .kabaddi_play ul li {
   
     text-align: left;
     margin: 8px auto;
-    font-size: 18px;
-  } */
+    /* font-size: 18px; */
+  }
   
   .fantasy_football{
-    width: 100%;
+    width: 95%;
     border: 1px solid black;
     margin-bottom: 15px;
     margin: 20px auto;
-  
+    table-layout: fixed;
+    border-collapse: collapse;
   }
   
   .fantasy_football tr {
@@ -69,36 +78,41 @@
   }
   
   .fantasy_football td {
-    border: 1px solid black;
+    
+    width: 50% ;
+  border: 1px black solid ;
+  padding: 10px ;
   }
   
   .para_batt{
-    width: 100%;
+    width: 95%;
     text-align: left;
     margin: 0 auto;
-    font-size: 20px;
+    color: #2e69be;
     padding: 6px;
+    font-weight: 500;
+    font-size: 20px;
   }
+
+  
+  .crick_head p {
+    font-weight: 600;
+}
   
   
   .player_com p {
     text-align: left;
     margin: 0 auto;
     width: 100%;
-    
-  }
-  .fantasy_football p{
-    padding: 10px;
   }
   
-  /* .kabaddi_play{
-    text-align: center;
+  .kabaddi_play{
+    text-align: left;
     margin: 0 auto;
     display: block;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
   
-  } */
-  
+  }
   .list-group-item {
     border: 0px solid !important;
   }
@@ -120,10 +134,9 @@
   }
   
   .faqs_paragraph_about{
-    width: 100%;
+    width: 80%;
     text-align: left;
     margin: 0 auto;
-    font-size: 20px;
   }
   @media screen and (max-width: 600px) {
     .fantasy_gaming {

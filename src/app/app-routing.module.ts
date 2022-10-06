@@ -8,6 +8,7 @@ import { TermsandconditionComponent } from './modules/features/termsandcondition
 import { PrivacypolicyComponent } from './modules/features/privacypolicy/privacypolicy.component';
 import { KabaddiComponent } from './modules/features/kabaddi/kabaddi.component';
 import { CricketComponent } from './modules/features/cricket/cricket.component';
+import { FootballComponent } from './modules/features/football/football.component';
 
 
 
@@ -21,6 +22,7 @@ const routes: Routes = [
                           {path : 'privacypolicy', component: PrivacypolicyComponent},
                           {path: 'kabaddi', component:KabaddiComponent},
                           {path: 'cricket', component:CricketComponent},
+                          {path: 'football', component:FootballComponent},
 
                        ];
 @NgModule({
