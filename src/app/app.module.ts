@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { KabaddiComponent } from './modules/features/kabaddi/kabaddi.component';
+import { CricketComponent } from './modules/features/cricket/cricket.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { KabaddiComponent } from './modules/features/kabaddi/kabaddi.component';
     FooterComponent,
     TermsandconditionComponent,
     PrivacypolicyComponent,
-    KabaddiComponent
+    KabaddiComponent,
+    CricketComponent
   ],
   imports: [
     BrowserModule,
