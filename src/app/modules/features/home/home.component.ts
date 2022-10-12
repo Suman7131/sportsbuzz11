@@ -34,4 +34,8 @@ export class HomeComponent implements OnInit {
     
   }
 
+  ngAfterViewChecked() {
+    window.scrollTo(0, 0);
+    }
+
 }

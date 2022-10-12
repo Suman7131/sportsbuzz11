@@ -74,6 +74,10 @@ export class ContactusComponent implements OnInit {
 
   }
 
+  ngAfterViewChecked() {
+    window.scrollTo(0, 0);
+    }
+
 
    get contactForm() { return this.registerForm.controls; }
 
