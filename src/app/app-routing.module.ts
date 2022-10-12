@@ -9,6 +9,8 @@ import { PrivacypolicyComponent } from './modules/features/privacypolicy/privacy
 import { KabaddiComponent } from './modules/features/kabaddi/kabaddi.component';
 import { CricketComponent } from './modules/features/cricket/cricket.component';
 import { FootballComponent } from './modules/features/football/football.component';
+import { LegalityComponent } from './modules/features/legality/legality.component';
+import { RefundComponent } from './modules/features/refund/refund.component';
 
 
 
@@ -23,6 +25,12 @@ const routes: Routes = [
                           {path: 'kabaddi', component:KabaddiComponent},
                           {path: 'cricket', component:CricketComponent},
                           {path: 'football', component:FootballComponent},
+                          {path: 'legality', component:LegalityComponent},
+                          {path: 'refund', component:RefundComponent},
+
+
+                      
+                          
 
                        ];
 @NgModule({

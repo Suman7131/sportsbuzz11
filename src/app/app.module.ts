@@ -19,6 +19,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { KabaddiComponent } from './modules/features/kabaddi/kabaddi.component';
 import { CricketComponent } from './modules/features/cricket/cricket.component';
 import { FootballComponent } from './modules/features/football/football.component';
+import { LegalityComponent } from './modules/features/legality/legality.component';
+import { RefundComponent } from './modules/features/refund/refund.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { FootballComponent } from './modules/features/football/football.componen
     PrivacypolicyComponent,
     KabaddiComponent,
     CricketComponent,
-    FootballComponent
+    FootballComponent,
+    LegalityComponent,
+    RefundComponent
   ],
   imports: [
     BrowserModule,
