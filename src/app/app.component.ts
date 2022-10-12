@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sportsbuzz11';
+
+  ngAfterViewChecked() {
+    window.scrollTo(0, 0);
+    }
 }
