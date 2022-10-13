@@ -12,8 +12,8 @@ export class FaqComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  ngAfterViewChecked() {
-    window.scrollTo(0, 0);
-    }
+  // ngAfterViewChecked() {
+  //   window.scrollTo(0, 0);
+  //   }
 
 }
