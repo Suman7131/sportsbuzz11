@@ -1,65 +1,96 @@
-  .about-section {
-    padding: 50px;
-    text-align: left;
-    margin-top: 45px;
+//   .about-section {
+//     padding: 50px;
+//     text-align: left;
+//     margin-top: 45px;
 
-  }
+//   }
 
-  .collapsible-link{line-height: 34px;
-    font-size: 17px;}
+//   .collapsible-link{line-height: 34px;
+//     font-size: 17px;}
 
-  // *{line-height: 34px;
-  //   font-size: 17px;}
+//   // *{line-height: 34px;
+//   //   font-size: 17px;}
 
-.abo_head {
-    padding: 20px;
-}
+// .abo_head {
+//     padding: 20px;
+// }
 
-.contact_title {
-  font-size: 30px;
-  text-align: center;
-  padding: 25px;
-  font-weight: 700;
-}
+// .contact_title {
+//   font-size: 30px;
+//   text-align: center;
+//   padding: 25px;
+//   font-weight: 700;
+// }
 
 
-.accou_p p {
-  font-weight: 400 !important;
-  font-size: 17px;
+// .accou_p p {
+//   font-weight: 400 !important;
+//   font-size: 17px;
   
-}
-.collapsible-link {
-    width: 100%;
-    position: relative;
-    text-align: left;
-    text-decoration: auto;
-  }
+// }
+// .collapsible-link {
+//     width: 100%;
+//     position: relative;
+//     text-align: left;
+//     text-decoration: auto;
+//   }
   
-  .collapsible-link::before {
-    content: "\f107";
-    position: absolute;
-    top: 50%;
-    right: 0.8rem;
-    transform: translateY(-50%);
-    display: block;
-    font-family: "FontAwesome";
-    font-size: 1.1rem;
-  }
+//   .collapsible-link::before {
+//     content: "\f107";
+//     position: absolute;
+//     top: 50%;
+//     right: 0.8rem;
+//     transform: translateY(-50%);
+//     display: block;
+//     font-family: "FontAwesome";
+//     font-size: 1.1rem;
+//   }
   
-  .collapsible-link[aria-expanded="true"]::before {
-    content: "\f106";
-  }
+//   .collapsible-link[aria-expanded="true"]::before {
+//     content: "\f106";
+//   }
 
-  @media only screen and (max-width: 768px) {
-    .collapsible-link{
-      line-height: 20px;
-      font-size: 9px;
-      white-space: pre-wrap;
-    }
+//   @media only screen and (max-width: 768px) {
+//     .collapsible-link{
+//       line-height: 20px;
+//       font-size: 9px;
+//       white-space: pre-wrap;
+//     }
 
-    .accou_p p {
+//     .accou_p p {
       
-      font-size: 9px;
+//       font-size: 9px;
       
-    }
+//     }
+// }
+
+
+// .about-section{padding:50px;text-align:left;margin-top:45px}
+// .collapsible-link{line-height:34px;font-size:17px}
+// .abo_head{padding:20px}.contact_title{font-size:30px;text-align:center;padding:25px;font-weight:700}
+// .accou_p p{font-weight:400 !important;font-size:17px}
+// .collapsible-link{width:100%;position:relative;text-align:left;-webkit-text-decoration:auto;text-decoration:auto}
+// .collapsible-link::before{content:"";position:absolute;top:50%;right:.8rem;transform:translateY(-50%);display:block;font-family:"FontAwesome";font-size:1.1rem}
+// .collapsible-link[aria-expanded=true]::before{content:""}.collapsible-link.collapsed{border:none}
+// .collapsible-link{border-bottom:1px dotted #ccc}
+// #accordionExample .card{border:none !important;background:#fff !important;box-shadow:0px 1px 2px 1px rgba(0,0,0,.15) !important;border-radius:12px;margin-bottom:25px}
+// #accordionExample .card .card-header{background:none !important}
+// @media only screen and (max-width: 768px){
+//   .collapsible-link{line-height:20px;font-size:14px;white-space:pre-wrap}
+//   .accou_p p{font-size:14px}
+// }
+
+.card-header {
+  button.btn.btn-link.text-dark.font-weight-bold.collapsible-link:active, button.btn.btn-link.text-dark.font-weight-bold.collapsible-link:focus {
+    border: none !important;
+    outline: none !important;
+    outline-style: none !important;
 }
+}
+
+.about-section{padding:50px;text-align:left;margin-top:45px}
+.collapsible-link{line-height:34px;font-size:17px}
+.abo_head{padding:20px}
+.contact_title{font-size:30px;text-align:center;padding:25px;font-weight:700}
+.accou_p p{font-weight:400 !important;font-size:17px}
+.collapsible-link{width:100%;position:relative;text-align:left;-webkit-text-decoration:auto;text-decoration:auto}.collapsible-link::before{content:"";position:absolute;top:50%;right:.8rem;transform:translateY(-50%);display:block;font-family:"FontAwesome";font-size:1.1rem}.collapsible-link[aria-expanded=true]::before{content:""}.collapsible-link.collapsed{border:none}.collapsible-link{border-bottom:1px dotted #ccc}#accordionExample .card{border:none !important;background:#fff !important;box-shadow:0px 1px 2px 1px rgba(0,0,0,.15) !important;border-radius:12px;margin-bottom:25px}#accordionExample .card .card-header{background:none !important}@media only screen and (max-width: 768px){.collapsible-link{line-height:20px;font-size:14px;white-space:pre-wrap}.accou_p p{font-size:14px}}
