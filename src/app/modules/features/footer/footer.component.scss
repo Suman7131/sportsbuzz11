@@ -89,6 +89,26 @@
         display: inline-block;
         margin: 3px;
     }
+
+    .footer-btm-text{
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .foot_appimg1 {
+        width: 100% !important;
+        display: flex;
+        a{
+            img{
+                width: 110px;
+
+            }
+        }
+    }
+    .five-col{
+        .footer-social-blocks{
+            width: auto !important;
+        }
+    }
     
   }
 

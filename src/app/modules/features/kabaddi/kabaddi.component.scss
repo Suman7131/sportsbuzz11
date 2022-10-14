@@ -12,6 +12,10 @@
       font-size: 24px;
   }
 
+  tr.fany td {
+    padding: 10px;
+}
+
   .contact_about {
     font-size: 30px;
     text-align: left; 
@@ -69,7 +73,11 @@
   }
   
   .fantasy_football td {
-    border: 1px solid black;
+    //border: 1px solid black;
+    border: 3px solid black;
+    border-style: double;
+    width: 50%;
+    padding: 10px;
   }
   
   .para_batt{
@@ -87,9 +95,9 @@
     width: 100%;
     
   }
-  .fantasy_football p{
-    padding: 10px;
-  }
+  // .fantasy_football p{
+  //   padding: 10px;
+  // }
 
   .para_batt{
     width: 100%;

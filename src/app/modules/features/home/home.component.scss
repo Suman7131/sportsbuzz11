@@ -268,7 +268,7 @@
     border-radius: 12px;
     width: 25% !important;
     margin-left: 10px !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
     color: #fff;
     border-top-left-radius: 5px !important;
     border-bottom-left-radius: 5px !important;
@@ -296,9 +296,9 @@
    height: 40px;
 }
 
-.bkImg {
-    background: linear-gradient(to left, #e2ebff -113%, #fff 100%);
-}
+// .bkImg {
+//     background: linear-gradient(to left, #e2ebff -113%, #fff 100%);
+// }
 
 .bacgrongImg-ouruser {
     background: linear-gradient(to right, #FCDDE2 -303%, #fff 63%);
@@ -518,7 +518,7 @@ p.inin_pa {
 .inlin_data img {
     /* padding: 5px; */
     margin-bottom: 12px;
-    margin-left: 45px;
+   // margin-left: 45px;
 }
 input#mobNo1 {
     font-size: 16px;
@@ -528,7 +528,15 @@ input#mobNo2 {
 }
 
 .inlin_alig {
-    left: 47% !important;
+    left: 39.5% !important;
+}
+
+.sport_win_lef {
+    margin-left: 8px;
+}
+
+.bt_da {
+    width: 230px;
 }
 
 .fourts_col {
@@ -877,6 +885,15 @@ img.img_secd {
     line-height: 30px;
     }
 
+    .banner_play {
+        margin-top: 20px !important;
+    }
+
+    .inlin_alig {
+        left: 70.5% !important;
+        width: 100%;
+    }
+
     .group67icons,
     .group65icons {
         width:100% !important;
@@ -968,6 +985,246 @@ img.img_secd {
   
     
 }
+
+
+
+/* 13 Oct  */
+/* BG Blur */
+.bg-blur-blue {
+    width: 649px;
+    height: 649px;
+    position: absolute;
+    right: 0;
+    border-radius: 460px;
+    top: 100px;
+    background: #e2ebff;
+    filter: blur(182px);
+  }
+  .sb-mar-50 {
+    position: relative;
+    top: 50px;
+  }
+  .sb-bg-1 {
+    background: #e4fff1;
+  }
+  .sb-bg-2 {
+    background: #fdffe4;
+  }
+  .sb-bg-3 {
+    background: #e4f4ff;
+  }
+  
+  .sb-bg-4 {
+    background: #f0e4ff;
+  }
+  .sb-11-img-part {
+    padding: 20px 10px;
+    height: 115px;
+  
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+  .why-sb-11 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 150px;
+    margin-top: 40px;
+  }
+  .sb-11-img-part {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .in-sb-11 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: #ffffff;
+    box-shadow: 0px 2px 9px rgb(0 0 0 / 11%);
+    border-radius: 0px 30px 0px 30px;
+    overflow: hidden;
+  }
+  .sb-11-content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+      color: #888;
+    }
+  }
+  /* Responsive CSS */
+  @media only screen and (max-width: 767px) {
+    .bg-blur-blue {
+      display: none;
+    }
+    .home-page-content {
+      font-size: 32px;
+      line-height: normal;
+      padding-right: 15px;
+    }
+    .mobile-num-download {
+      display: none;
+    }
+  
+    .avail_app {
+      order: 1;
+      p {
+        margin: 0;
+        font-size: 14px;
+      }
+    }
+    .download-links {
+      margin: 0;
+    }
+    .sport_win {
+      order: 2;
+      padding-top: 20px;
+  
+      img {
+        height: auto !important;
+        margin: 0;
+        max-width: 192px;
+      }
+    }
+    .sport-win-2-img {
+      order: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    img.Group13.img_secd {
+      display: none !important;
+    }
+    .inlin_data {
+      .centered.inlin_alig {
+        padding-left: 15px;
+      }
+    }
+  
+    .create-sb-11 {
+      margin-bottom: 30px;
+    }
+    .play-sb-11-heading {
+      padding-bottom: 70px !important;
+      display: block !important;
+      padding-top: 20px;
+    }
+    .group630 {
+      margin-bottom: 15px;
+    }
+    .too_la {
+      h1 {
+        color: #878585;
+      }
+    }
+    .rect_mobile:before {
+      width: 130%;
+      content: '';
+      position: absolute;
+      height: 100%;
+      background: linear-gradient(
+        87.03deg,
+        #1823d4 -8.79%,
+        #214aff 56.02%,
+        #6fb1fc 120.83%
+      );
+      left: -10%;
+      right: 0;
+      margin: auto;
+    }
+  
+    /* WHY SB 11 Code Changes START  */
+    .why-sb-11 {
+      .sb-11-img-part {
+        height: auto;
+        align-items: center;
+      }
+      .sb-11-img-part img {
+        width: 50px;
+        height: 50px;
+      }
+      flex-direction: column;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      .sb-11-content {
+        text-align: left;
+        padding: 0 20px;
+        padding-top: 5px;
+      }
+      .in-sb-11 {
+        width: 100%;
+        flex-direction: row;
+      }
+      .sb-mar-50 {
+        top: 0;
+      }
+      .sb-11-content p{
+          font-size: 12px;
+      }
+      .sb-11-content h3{
+          font-size: 16px;
+      }
+
+
+    }
+    /* WHY SB 11 Code Changes END END END   */
+  }
+  /* Responsive CSS END END END   */
+
+
+  @media only screen and (max-width: 767px) {
+    .testimonial-block .tab-pane {
+        width: 95%;
+        margin: auto;
+    }
+
+    .testimonial-block .nav-item.nav-link span {
+        width: 60px;
+        height: 60px;
+    }
+
+    .testimonial-block .nav-item.nav-link span img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .testimonial-block .nav-item.nav-link.active:before {
+        top: -33px;
+        width: 38px;
+        height: 48px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width:480px) {
+    .testimonial-content-p {
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .testimonial-content-p {
+        height: 180px;
+    }
+
+    .testimonial-block .nav-item.nav-link {
+        padding: 0 0px;
+    }
+
+    .testimonial-block .tab-pane {
+        border-radius: 0px 10px 0px 10px;
+    }
+}
+
+/*  Resoinsive CSS - ADD  */
+  
 
 /* ------testimonial  close-------*/
 
